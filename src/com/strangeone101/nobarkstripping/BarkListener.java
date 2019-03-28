@@ -69,6 +69,7 @@ public class BarkListener implements Listener {
 		
 		if (clickers.contains(event.getPlayer())) {
 			event.getPlayer().sendMessage(Config.getMessage());
+			clickers.remove(event.getPlayer());
 			return;
 		} else {
 			clickers.add(event.getPlayer());
