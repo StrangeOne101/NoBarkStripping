@@ -1,0 +1,7 @@
+name: NoBarkStripping
+version: 1.0
+author: StrangeOne101
+main: com.strangeone101.nobarkstripping.NoBarkStripping
+depend: []
+api-version: 1.13
+  
